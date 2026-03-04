@@ -170,6 +170,7 @@ class DeskClockWindow(Gtk.ApplicationWindow):
 
 class DeskClockApplication(Gtk.Application):
     def __init__(self):
+        # Use a stable application ID so desktop integration remains consistent.
         super().__init__(application_id="com.rwadmin.DeskClock")
 
     def do_activate(self):
