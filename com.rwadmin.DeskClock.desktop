@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=DeskClock
+Comment=Small local GTK4 clock app
+Exec=/home/rwadmin/Code/LinTest/run.sh
+Icon=/home/rwadmin/Code/LinTest/assets/icons/deskclock.svg
+Terminal=false
+Categories=Utility;Clock;
+StartupNotify=true
