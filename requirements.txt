@@ -1,2 +1,3 @@
 # PyGObject is typically installed from Ubuntu packages for GTK support.
 # Install runtime deps with apt (see README.md).
+Pillow>=10.0
